@@ -1,0 +1,209 @@
+﻿2019-04-15 12:01:36> Program: Starting Squirrel Updater: --createShortcut=Postman.exe
+2019-04-15 12:01:36> ApplyReleasesImpl: About to create shortcuts for Postman.exe, rootAppDir C:\Users\User\AppData\Local\Postman
+2019-04-15 12:01:36> ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk
+2019-04-15 12:01:37> ApplyReleasesImpl: About to save shortcut: C:\Users\User\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Postman\Postman.lnk (target C:\Users\User\AppData\Local\Postman\Update.exe, workingDir C:\Users\User\AppData\Local\Postman\app-7.0.7, args --processStart "Postman.exe")
+2019-04-15 12:01:37> ApplyReleasesImpl: Creating shortcut for Postman.exe => C:\Users\User\Desktop\Postman.lnk
+2019-04-15 12:01:37> ApplyReleasesImpl: About to save shortcut: C:\Users\User\Desktop\Postman.lnk (target C:\Users\User\AppData\Local\Postman\Update.exe, workingDir C:\Users\User\AppData\Local\Postman\app-7.0.7, args --processStart "Postman.exe")
+2019-04-15 12:01:37> ApplyReleasesImpl: Examining Pin: Control Panel.lnk
+2019-04-15 12:01:37> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2019-04-15 12:01:37> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2019-04-15 12:01:37> ApplyReleasesImpl: Examining Pin: Mozilla Firefox.lnk
+2019-04-15 12:01:37> ApplyReleasesImpl: Examining Pin: Spotify.lnk
+2019-04-15 12:01:37> ApplyReleasesImpl: Examining Pin: Telegram.lnk
+2019-04-16 09:05:20> Program: Starting Squirrel Updater: --processStart Postman.exe
+2019-04-16 09:05:20> Program: Want to launch 'C:\Users\User\AppData\Local\Postman\app-7.0.7\Postman.exe'
+2019-04-16 09:05:20> Program: About to launch: 'C:\Users\User\AppData\Local\Postman\app-7.0.7\Postman.exe': 
+2019-04-22 09:31:08> Program: Starting Squirrel Updater: --processStart Postman.exe
+2019-04-22 09:31:08> Program: Want to launch 'C:\Users\User\AppData\Local\Postman\app-7.0.7\Postman.exe'
+2019-04-22 09:31:08> Program: About to launch: 'C:\Users\User\AppData\Local\Postman\app-7.0.7\Postman.exe': 
+2019-04-23 09:31:34> Program: Starting Squirrel Updater: --checkForUpdate https://dl.pstmn.io/update/WIN64/7.0.7/stable?installationId=44ee1b42-2012-4a60-8aed-50102a9ee3c2&userId=7252964&syncEnabled=true&teamPlan=
+2019-04-23 09:31:35> Program: Fetching update information, downloading from https://dl.pstmn.io/update/WIN64/7.0.7/stable?installationId=44ee1b42-2012-4a60-8aed-50102a9ee3c2&userId=7252964&syncEnabled=true&teamPlan=
+2019-04-23 09:31:35> CheckForUpdateImpl: Generated new staging user ID: 4f55eeb5-8000-550f-a07a-78989d6de9ce
+2019-04-23 09:31:35> CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/7.0.7/stable?installationId=44ee1b42-2012-4a60-8aed-50102a9ee3c2&userId=7252964&syncEnabled=true&teamPlan=
+2019-04-23 09:31:36> FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/7.0.7/stable/RELEASES?installationId=44ee1b42-2012-4a60-8aed-50102a9ee3c2&userId=7252964&syncEnabled=true&teamPlan=&id=Postman&localVersion=7.0.7&arch=amd64
+2019-04-23 09:31:38> UpdateInfo: Couldn't get release notes for:Postman-win64-7.0.9-delta.nupkg: System.IO.FileNotFoundException: Could not find file 'C:\Users\User\AppData\Local\Postman\packages\Postman-win64-7.0.9-delta.nupkg'.
+File name: 'C:\Users\User\AppData\Local\Postman\packages\Postman-win64-7.0.9-delta.nupkg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NuGet.ZipPackage.<>c__DisplayClass9_0.<.ctor>b__0()
+   at NuGet.ZipPackage.EnsureManifest()
+   at NuGet.ZipPackage..ctor(String filePath, Boolean enableCaching)
+   at Squirrel.ReleaseEntry.GetReleaseNotes(String packageDirectory)
+   at Squirrel.UpdateInfo.<FetchReleaseNotes>b__19_0(ReleaseEntry x)
+2019-04-23 09:31:38> Program: Starting Squirrel Updater: --update https://dl.pstmn.io/update/WIN64/7.0.7/stable?installationId=44ee1b42-2012-4a60-8aed-50102a9ee3c2&userId=7252964&syncEnabled=true&teamPlan=
+2019-04-23 09:31:38> Program: Starting update, downloading from https://dl.pstmn.io/update/WIN64/7.0.7/stable?installationId=44ee1b42-2012-4a60-8aed-50102a9ee3c2&userId=7252964&syncEnabled=true&teamPlan=
+2019-04-23 09:31:38> Program: About to update to: C:\Users\User\AppData\Local\Postman
+2019-04-23 09:31:38> CheckForUpdateImpl: Using existing staging user ID: 4f55eeb5-8000-550f-a07a-78989d6de9ce
+2019-04-23 09:31:38> CheckForUpdateImpl: Downloading RELEASES file from https://dl.pstmn.io/update/WIN64/7.0.7/stable?installationId=44ee1b42-2012-4a60-8aed-50102a9ee3c2&userId=7252964&syncEnabled=true&teamPlan=
+2019-04-23 09:31:38> FileDownloader: Downloading url: https://dl.pstmn.io/update/WIN64/7.0.7/stable/RELEASES?installationId=44ee1b42-2012-4a60-8aed-50102a9ee3c2&userId=7252964&syncEnabled=true&teamPlan=&id=Postman&localVersion=7.0.7&arch=amd64
+2019-04-23 09:31:40> FileDownloader: Downloading file: https://dl.pstmn.io/download/7.0.9/Postman-win64-7.0.9-delta.nupkg
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-console-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-datetime-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-debug-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-errorhandling-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-file-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-file-l1-2-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-file-l2-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-handle-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-heap-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-interlocked-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-libraryloader-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-localization-l1-2-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-memory-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-namedpipe-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-processenvironment-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-processthreads-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-processthreads-l1-1-1.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-profile-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-rtlsupport-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-string-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-synch-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-synch-l1-2-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-sysinfo-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-timezone-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-core-util-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-conio-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-convert-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-environment-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-filesystem-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-heap-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-locale-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-math-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-multibyte-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-private-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-process-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-runtime-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-stdio-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-string-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-time-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\api-ms-win-crt-utility-l1-1-0.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\blink_image_resources_200_percent.pak.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\content_resources_200_percent.pak.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\content_shell.pak.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\d3dcompiler_47.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\ffmpeg.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\icudtl.dat.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\libEGL.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\libGLESv2.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\LICENSE.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\msvcp140.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\natives_blob.bin.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\node.dll.diff exists unchanged, skipping
+2019-04-23 09:31:50> DeltaPackageBuilder: lib\net45\pdf_viewer_resources.pak.diff exists unchanged, skipping
+2019-04-23 09:31:51> DeltaPackageBuilder: Applying BSDiff to lib\net45\Postman.exe.bsdiff
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\snapshot_blob.bin.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: Applying MSDiff to lib\net45\squirrel.exe.diff
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\ucrtbase.dll.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\ui_resources_200_percent.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\vcruntime140.dll.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\views_resources_200_percent.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\am.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\ar.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\bg.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\bn.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\ca.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\cs.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\da.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\de.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\el.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\en-GB.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\en-US.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\es-419.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\es.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\et.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\fa.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\fake-bidi.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\fi.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\fil.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\fr.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\gu.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\he.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\hi.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\hr.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\hu.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\id.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\it.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\ja.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\kn.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\ko.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\lt.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\lv.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\ml.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\mr.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\ms.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\nb.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\nl.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\pl.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\pt-BR.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\pt-PT.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\ro.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\ru.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\sk.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\sl.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\sr.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\sv.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\sw.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\ta.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\te.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\th.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\tr.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\uk.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\vi.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\zh-CN.pak.diff exists unchanged, skipping
+2019-04-23 09:31:54> DeltaPackageBuilder: lib\net45\locales\zh-TW.pak.diff exists unchanged, skipping
+2019-04-23 09:31:55> DeltaPackageBuilder: Applying BSDiff to lib\net45\resources\app.asar.bsdiff
+2019-04-23 09:32:02> DeltaPackageBuilder: lib\net45\resources\electron.asar.diff exists unchanged, skipping
+2019-04-23 09:32:02> DeltaPackageBuilder: Updating metadata file: Postman.nuspec
+2019-04-23 09:32:02> DeltaPackageBuilder: Updating metadata file: [Content_Types].xml
+2019-04-23 09:32:02> DeltaPackageBuilder: Updating metadata file: package\services\metadata\core-properties\fdab287c0ce74aa08576a0b42fa71734.psmdcp
+2019-04-23 09:32:02> DeltaPackageBuilder: Updating metadata file: _rels\.rels
+2019-04-23 09:32:02> DeltaPackageBuilder: Repacking into full package: C:\Users\User\AppData\Local\Postman\packages\Postman-win64-7.0.9.nupkg
+2019-04-23 09:32:32> ApplyReleasesImpl: Writing files to app directory: C:\Users\User\AppData\Local\Postman\app-7.0.9
+2019-04-23 09:32:38> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\User\AppData\Local\Postman\app-7.0.9\Postman.exe]
+2019-04-23 09:32:54> ApplyReleasesImpl: Couldn't run Squirrel hook, continuing: C:\Users\User\AppData\Local\Postman\app-7.0.9\Postman.exe: System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at Squirrel.Utility.<>c__DisplayClass11_0.<InvokeProcessAsync>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.Utility.<InvokeProcessAsync>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<>c__DisplayClass10_0.<<invokePostInstall>b__0>d.MoveNext()
+2019-04-23 09:32:54> ApplyReleasesImpl: Starting fixPinnedExecutables
+2019-04-23 09:32:54> ApplyReleasesImpl: Examining Pin: Control Panel.lnk
+2019-04-23 09:32:54> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2019-04-23 09:32:54> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2019-04-23 09:32:54> ApplyReleasesImpl: Examining Pin: Mozilla Firefox.lnk
+2019-04-23 09:32:54> ApplyReleasesImpl: Examining Pin: Spotify.lnk
+2019-04-23 09:32:55> ApplyReleasesImpl: Examining Pin: Telegram.lnk
+2019-04-23 09:32:55> ApplyReleasesImpl: Fixing up tray icons
+2019-04-23 09:32:55> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+2019-04-23 09:32:55> ApplyReleasesImpl: Couldn't rewrite shim RegKey, most likely no apps are shimmed: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<unshimOurselves>b__13_0(RegistryView view)
+2019-04-23 09:32:55> ApplyReleasesImpl: cleanDeadVersions: for version 7.0.9
+2019-04-23 09:32:55> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.0.7
+2019-04-23 09:32:55> ApplyReleasesImpl: cleanDeadVersions: exclude folder app-7.0.9
+2019-04-23 09:32:55> InstallHelperImpl: Couldn't write uninstall icon, don't care: System.Net.WebException: Could not find a part of the path 'C:\Users\Administrator\buildkite-agent\builds\win-build\postman\app-package-and-deploy\resources\postman-prod.ico'. ---> System.Net.WebException: Could not find a part of the path 'C:\Users\Administrator\buildkite-agent\builds\win-build\postman\app-package-and-deploy\resources\postman-prod.ico'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Administrator\buildkite-agent\builds\win-build\postman\app-package-and-deploy\resources\postman-prod.ico'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   at System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Squirrel.UpdateManager.InstallHelperImpl.<CreateUninstallerRegistryEntry>d__5.MoveNext()
