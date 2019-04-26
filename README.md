@@ -60,10 +60,10 @@ $ py app.py
 ```
 
 No. | Nama | Job
-- | -| -
-1. | Andi | nganggur
-2. | Bidi | nganggur
-3. | Caca | Sales
+--- | --- | ---
+1 | Andi | nganggur
+2 | Bidi | nganggur
+3 | Caca | Sales
 
 
 
